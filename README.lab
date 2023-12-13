@@ -1,4 +1,5 @@
 source build.lab
+# 我的Boost中的python版本,所以我用
 python=3.8.10
 # 安装低版本
 pip install protobuf==3.19.6
