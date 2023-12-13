@@ -1,0 +1,6 @@
+source build.lab
+python=3.8.10
+# 安装低版本
+pip install protobuf==3.19.6
+# 将libcaffe.so.1.0.0放到可识别的地方
+/home/lab/Project/SCD-Net/install/lib/libcaffe.so.1.0.0

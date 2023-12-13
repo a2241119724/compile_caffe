@@ -1,0 +1,8 @@
+#!/bin/bash
+
+mkdir build
+cd build
+sudo cmake -DPYTHON_EXECUTABLE=/home/lab/anaconda3/envs/npz/bin/python ..
+sudo make all
+sudo make install
+sudo make runtest
